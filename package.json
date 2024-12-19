@@ -4,6 +4,7 @@
   "main": " \t",
   "scripts": {
     "cy:open": "cypress open",
+    "test:runPOMDataDriven":"npx cypress run --spec cypress/e2e/tests/PageObjectModelTest.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Niraj Patel",
