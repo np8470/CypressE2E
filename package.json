@@ -1,0 +1,20 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "main": " \t",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niraj Patel",
+  "license": "ISC",
+  "description": "This is a cypress automation demo",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress": "^13.16.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
