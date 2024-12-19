@@ -1,4 +1,4 @@
-name: Regression End-to-end tests
+name: Parallel End-to-end tests
 on: push
 jobs:
   runPOMDataDriven-run:
