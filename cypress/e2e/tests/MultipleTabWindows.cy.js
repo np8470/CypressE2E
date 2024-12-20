@@ -19,4 +19,13 @@ describe('Handle tabs and windows', ()=>{
         cy.go('back')
 
     })
+
+    it('Approach 3 - Handle tabs', ()=>{
+        cy.visit('https://the-internet.herokuapp.com/windows')
+        cy.get('.example > a').invoke('attr','target','_self').click()
+
+        cy.url().should('eq','https://the-internet.herokuapp.com/windows/new')
+
+        cy.go('back') // navigate back
+    })
 })

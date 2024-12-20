@@ -20,5 +20,19 @@ module.exports = defineConfig({
   },
   env: {
     URL: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+  },
+  "includeShadowDom":true,
+  //"defaultCommandTimeout":20000
+  retries: {
+    experimentalStrategy: 'detect-flake-but-always-fail',
+    experimentalOptions: {
+      maxRetries: 2,
+      stopIfAnyPassed: true,
+    },
+
+    // you must also explicitly set openMode and runMode to
+    // either true or false when using experimental retries
+    openMode: true,
+    runMode: true,
   }
 });

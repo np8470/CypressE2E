@@ -26,4 +26,4 @@ jobs:
            SLACK_ICON: https://github.com/rtCamp.png?size=48
            SLACK_MESSAGE: 'Cypress Test Automation Report https://github.com/np8470/CypressE2E/actions/runs/${{github.run_id}} :rocket:'
            SLACK_TITLE: Cypress Web Automation
-           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}      
+           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}  
